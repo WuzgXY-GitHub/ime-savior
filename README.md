@@ -13,7 +13,7 @@ reg add "HKCU\Software\Microsoft\InputMethod\Settings\Common" /v TouchKeyboardHa
 
 其原理是每半秒钟检查 `explorer.exe` 情况。程序由 GPT-6.1 Sol 歪伯而来，是否造成资源泄漏暂时未知。据报，软键盘的自动关闭可能失效。
 ## 参考
-百度贴吧：[中文状态下第一个字母是英文](https://tieba.baidu.com/p/6241077887) 着重感谢本贴 @yoyoLumi @王兰花秀丽♡ 的回答，助我及早解决此问题
-微软文档：[组合字符](https://learn.microsoft.com/en-us/windows/win32/tsf/compositions)
-微软社区：[Windows11 24H2开启触摸键盘功能后，会导致输入法首字母不被自定义输入法接管（变为英文）](https://learn.microsoft.com/zh-cn/answers/questions/3971899/windows11-24h2)
-小狼毫议题：[ctrl+c之后，rime出现奇怪的上屏问题](https://github.com/rime/weasel/issues/1519#issuecomment-2880862406)
+1. 百度贴吧：[中文状态下第一个字母是英文](https://tieba.baidu.com/p/6241077887) 着重感谢本贴 @yoyoLumi @王兰花秀丽♡ 的回答，助我及早解决此问题
+2. 微软文档：[组合字符](https://learn.microsoft.com/en-us/windows/win32/tsf/compositions)
+3. 微软社区：[Windows11 24H2开启触摸键盘功能后，会导致输入法首字母不被自定义输入法接管（变为英文）](https://learn.microsoft.com/zh-cn/answers/questions/3971899/windows11-24h2)
+4. 小狼毫议题：[ctrl+c之后，rime出现奇怪的上屏问题](https://github.com/rime/weasel/issues/1519#issuecomment-2880862406)
